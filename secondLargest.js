@@ -1,4 +1,4 @@
-const arr=[60,50,10,40,80];
+const arr=[-1,0,60,50,10,40,80,-1];
 
 let largest=-1, secondlargest=-1;
 
@@ -13,4 +13,4 @@ for(let i=0;i<arr.length;i++){
         secondlargest=arr[i]
     }
 }
-console.log(secondlargest)
+console.log(secondlargest,largest)
